@@ -21,6 +21,6 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
-Route::get('/kontak', function () {
-    return view('kontak');
+Route::get('/contact', function () {
+    return view('contact');
 });
